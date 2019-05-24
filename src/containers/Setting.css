@@ -1,0 +1,38 @@
+.fit {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 64px;
+}
+
+#saveBtn {
+    margin: 16px;
+}
+
+.form {
+    height: 300px;
+    width: 500px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+                    0 1px 10px 0 rgba(0, 0, 0, 0.12),
+                    0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    margin: 16px;
+    padding: 32px;
+    background: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: all .9s;
+    transform: scale(1);
+}
