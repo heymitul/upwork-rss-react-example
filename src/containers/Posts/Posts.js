@@ -22,7 +22,6 @@ class Posts extends Component {
 
         this.fetchData(configObj);
         let intervalId = setInterval(() => {
-            console.log('Fetching...')
             this.fetchData(configObj);
         }, configObj.interval * 60 * 1000);
 
@@ -79,7 +78,6 @@ class Posts extends Component {
                     })
                 }
 
-                console.log(rssData);
                 this.setState({
                     posts: rssData
                 })

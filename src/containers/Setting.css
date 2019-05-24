@@ -36,3 +36,9 @@
     transition: all .9s;
     transform: scale(1);
 }
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 80%;
+    }
+}
